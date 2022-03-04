@@ -8,3 +8,6 @@ package com.midsummer.currencylistdemo.internal
  */
 const val BASE_URL = "https://raw.githubusercontent.com/"
 const val DATABASE_NAME = "articles.db"
+
+const val SORT_ASC = 1
+const val SORT_DESC = 2

@@ -12,6 +12,6 @@ import retrofit2.http.GET
  */
 interface CurrencyInfoAPI {
 
-    @GET("vtproduction/Assignment-Demo/main/data.json?token=GHSAT0AAAAAABR4M5WHCWOZVYXG6MQJTW3CYQ6YDNA")
+    @GET("https://raw.githubusercontent.com/vtproduction/Assignment-Demo/main/data.json")
     suspend fun getCurrenciesInfo() : List<CurrencyInfo>
 }

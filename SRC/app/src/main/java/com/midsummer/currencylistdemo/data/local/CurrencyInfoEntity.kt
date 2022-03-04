@@ -13,7 +13,7 @@ import java.io.Serializable
  */
 @Entity(tableName = "currencyInfo")
 data class CurrencyInfoEntity(
-    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey
     @ColumnInfo(name = "id")
     var id: String = "",
 
